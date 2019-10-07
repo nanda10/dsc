@@ -22,7 +22,7 @@ static void calc(String ch,int a,int b) {
         case "/" : if(b==0) {
             System.out.println("Mathematical error");
             }else {
-            System.out.println("the reslut : "+a/b);
+            System.out.println("the reslut : "+(float)(a/b));
         }break;
         default : System.out.println("Enter valid choice");
     }
